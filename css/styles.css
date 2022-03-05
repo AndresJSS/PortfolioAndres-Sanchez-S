@@ -117,7 +117,7 @@ body-2{
 
 .card-body-2 .bg{
   position: absolute;
-  background: rgb(45, 153, 185);
+  background: #8d64ce;
   border-radius: 100px;
   width: 0%;
   transition: .5s;
@@ -3152,32 +3152,32 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color:#092b57;
+  border-color: #dbdee2;
+  border-width: 0.4rem;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #21618C;
-  border-color: #21618C;
+  color:#092b57;
+  background-color: #dbdee2;
+  border-color: #092b57;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
-  box-shadow: #ffc800;
+  background-color: #dbdee2;
+  border-color: #092b57;
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #dbdee2;
+  border-color: #092b57;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: #ffc800;
+  box-shadow: #dbdee2;
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #dbdee2;
+  border-color: #092b57;
 }
 
 .btn-secondary {
@@ -4064,7 +4064,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #ffc800;
+  color: #092b57;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4074,7 +4074,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #cca000;
+  color: #092b57;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4121,7 +4121,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ffc800;
+  background-color: #092b57;
 }
 
 .nav-fill > .nav-link,
@@ -7967,7 +7967,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #F2F3F4 !important;
 }
 
 .bg-dark {
@@ -11487,7 +11487,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
+  color: #fff;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -11499,11 +11499,12 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: #0dcaf0;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #fff;
+  font-weight: 900;
 }
 
 @media (min-width: 992px) {
@@ -11546,7 +11547,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align:justify;
   color: #fff;
-  background-image: url("../assets/img/header_4.jpg");
+  background-image: url("../assets/img/header_8.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11598,7 +11599,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: #092b57;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11855,7 +11856,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/Contact4.jpg");
+  background-image: url("../assets/img/Contact5.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -11868,7 +11869,7 @@ section#about {
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #154360;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
