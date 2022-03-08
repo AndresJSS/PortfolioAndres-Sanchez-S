@@ -117,7 +117,7 @@ body-2{
 
 .card-body-2 .bg{
   position: absolute;
-  background: #8d64ce;
+  background: #1F618D;
   border-radius: 100px;
   width: 0%;
   transition: .5s;
@@ -11547,7 +11547,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align:justify;
   color: #fff;
-  background-image: url("../assets/img/header_8.jpg");
+  background-image: url("../assets/img/header_7.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
